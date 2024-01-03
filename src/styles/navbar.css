@@ -1,0 +1,44 @@
+/* navbar.css */
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .idk {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .idk:hover {
+    color: #ffcc00;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cart i {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .cart span {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
+  .cart:hover {
+    color: #ffcc00;
+  }
+  
